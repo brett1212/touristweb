@@ -1,0 +1,211 @@
+html, body
+{ 
+padding: 0px; 
+height:100%; 
+box-sizing: border-box;
+font-family: verdana; 
+background-color:#000; 
+background-image: url(../IMG/maracasbay.jpg);/*//https://www.planetware.com/pictures/trinidad-and-tobago-tri.htm*/
+font-size:16px;
+background-repeat:repeat;	
+}
+
+ul 
+{ 
+list-style-type: none;
+width:95%; 
+height:50px; 
+background-color:#ccc;
+}
+
+li a
+{
+text-transform:uppercase;
+color: #fff;
+text-decoration:none;
+margin-right:15px;
+margin-left:35px;
+float:left;
+display:block;
+text-align: center;
+padding: 14px 16px;
+}
+
+
+ul a:hover 
+{ 
+background-color: #111; 
+}
+
+#container 
+{
+	
+width:1000px;
+height:1200px;
+border:5px solid #fff;	
+position:relative;
+margin:auto;
+padding:10px;
+background-color:#adadad;
+box-shadow: 10px 10px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+.img1
+{
+width:350px;
+height:350px;	
+float:left;
+padding:10px;
+}
+
+.img2
+{
+	
+width:350px;
+height:350px;	
+float:left;
+padding: 10px;
+	
+}
+
+h1
+{
+	
+text-align:center;	
+	
+}
+
+.img3
+{
+	
+width:350px;
+height:350px;	
+float:right;
+padding: 10px;
+
+	
+}
+
+.img4
+{
+	
+width:350px;
+height:350px;	
+
+
+	
+}
+
+
+#left
+{
+	
+width:350px;
+height:350px;	
+padding:5px;
+
+
+	
+}
+
+#right
+{
+	
+width:350px;
+height:350px;	
+
+padding:25px;
+
+}
+
+#div1
+{
+	
+grid-template-columns:1fr 1fr;	
+width:95%;
+grid-gap:5px;
+display:grid;
+padding-top:25px;
+}
+
+
+#cen
+{
+	
+margin: auto 75px;
+position:relative;
+	
+}
+
+#container1
+{
+	
+width:950px;
+height:900px;
+border:5px solid #fff;	
+position:relative;
+margin:auto;
+padding:10px;
+background-color:#adadad;
+box-shadow: 10px 10px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+#container3
+{
+	
+width:950px;
+height:900px;
+border:5px solid #fff;	
+position:relative;
+margin:auto;
+padding:10px;
+background-color:#adadad;
+box-shadow: 10px 10px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+#container4
+{
+	
+width:950px;
+height:2700px;
+border:5px solid #fff;	
+position:relative;
+margin:auto;
+padding:10px;
+background-color:#adadad;
+box-shadow: 10px 10px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+#container5
+{
+	
+width:950px;
+height:3700px;
+border:5px solid #fff;	
+position:relative;
+margin:auto;
+padding:10px;
+background-color:#adadad;
+box-shadow: 10px 10px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+#container2
+{
+	
+width:950px;
+height:1700px;
+border:5px solid #fff;	
+position:relative;
+margin:auto;
+padding:10px;
+background-color:#adadad;
+box-shadow: 10px 10px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+input[type], select {height:20px;}
+input[type="submit"], input[type="reset"]{height:40px; font-weight:bold;}
+#emailError, #pwdError {color:#f00;}
+
+.errorMsg { color:red;}

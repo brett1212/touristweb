@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="UTF-8">
+		<title> Login Form </title>
+		<link rel="stylesheet" href="../css/CNSITT.css">
+		<script src="../js/formval.js"></script>
+	</head>
+	
+	<body>
+		<div id="container1">
+		<header>
+			
+		</header>
+			
+		<main> 
+		
+				
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../php/featurea.php">Featured Attractions</a><li>
+						<li><a href="about.html">About Us</a><li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+					
+					<br><br><br><br>
+					
+				<h1> LOGIN FORM </h1>
+		
+			<form method="post" action="../php/login.php" onsubmit="return login();">
+			
+				<label> Email: </label>		<!--- Input type email -->		
+						<input type="email" id="email" name="email" size="30"> &nbsp; &nbsp;
+						<span id ="emailError"></span> <br> <br> <br> 
+
+				<label> Password: </label>	<!--- Input type password -->			
+						<input type="password" id="pword" name="pword"> &nbsp; &nbsp;
+						<span id ="pwdError"></span> <br> <br> <br>
+						
+				<input type="submit" name="login" value="LOGIN">
+				
+			</form>
+			
+		</main>
+		</div>
+	</body>
+	
+</html>
+						
